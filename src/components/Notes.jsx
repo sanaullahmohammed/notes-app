@@ -4,7 +4,7 @@ import CreateNote from "./CreateNote";
 import Note from "./Note";
 import { v4 as uuid } from "uuid";
 
-function Notes() {
+const Notes = () => {
   //states
   const [notes, setNotes] = useState([]);
   const [inputText, setInputText] = useState("");
@@ -50,6 +50,6 @@ function Notes() {
       />
     </div>
   );
-}
+};
 
 export default Notes;
